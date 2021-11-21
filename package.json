@@ -1,0 +1,25 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Probando Mocha y Chai para hacer Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hernan-Reiq/unit-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hernan-Reiq/unit-testing/issues"
+  },
+  "homepage": "https://github.com/Hernan-Reiq/unit-testing#readme",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
